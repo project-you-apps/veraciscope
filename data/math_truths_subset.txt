@@ -1,0 +1,800 @@
+Let $p_1 := \tuple {x_1, y_1}$ and $p_2 := \tuple {x_2, y_2}$ be [[Definition:Point|points]] in a [[Definition:Cartesian Plane|cartesian plane]]. Let $\mathcal L$ be the [[Definition:Straight Line|straight line]] passing through $p_1$ and $p_2$. Then the [[Definition:Slope of Straight Line|slope]] of $\mathcal L$ is given by: :$\tan \theta = \dfrac {y_2 - y_1} {x_2 - x_1}$ where $\theta$ is the [[Definition:Angle|angle]] made by $\mathcal L$ with the [[Definition:X-Axis|$x$-axis]].
+
+===
+
+:$239 = 13 \times 1^4 + 4 \times 2^4 + 2 \times 3^4$
+
+===
+
+:$\map {\dfrac \d {\d x} } {\sec u} = \sec u \tan u \dfrac {\d u} {\d x}$
+
+===
+
+Let $S$ be a [[Definition:Set|set]]. Let $\powerset S$ denote the [[Definition:Power Set|power set]] of $S$. There is no [[Definition:Bijection|bijection]] $f: S \to \powerset S$.
+
+===
+
+Let $S$ be a [[Definition:Non-Empty Set|non-empty]] [[Definition:Real Number|real set]]. Let $\displaystyle \sup_{x, y \mathop \in S} \paren {x - y}$ exist. Then $\displaystyle \sup_{x, y \mathop \in S} \size {x - y}$ exists and: :$\displaystyle \sup_{x, y \mathop \in S} \size {x - y} = \sup_{x, y \mathop \in S} \paren {x - y}$
+
+===
+
+The [[Definition:Second Order ODE|second order ODE]]: :$(1): \quad \paren {x^2 + 2 y'} y'' + 2 x y' = 0$ subject to the [[Definition:Initial Condition|initial conditions]]: :$y = 1$ and $y' = 0$ when $x = 0$ has the [[Definition:Particular Solution of Differential Equation|particular solution]]: :$y = 1$ or: :$3 y + x^3 = 3$
+
+===
+
+Let $T = \left({S, \tau}\right)$ be a [[Definition:Topological Space|topological space]]. Let $A$ be a [[Definition:Subset|subset]] of $S$. Let $x$ be a point of $T$. Let $A^-$ denote the [[Definition:Closure (Topology)|closure]] of $A$. Then $x \in A^-$ {{iff}}: :for every [[Definition:Open Set (Topology)|open set]] $U$ of $T$: ::$x \in U \implies A \cap U \ne \varnothing$
+
+===
+
+Volumes of Cones or Cylinders on Equal Bases are in Same Ratio as Heights
+
+===
+
+Length of Arc of Cycloid/Proof 2
+
+===
+
+Let $\tuple {a, b}$ be the [[Definition:Center of Circle|center]] of a [[Definition:Circle|circle]] $\mathcal C$. Let $P_n = \tuple {x_n, y_n}$ be any [[Definition:Point|point]] on $\mathcal C$. The equation of a non-vertical [[Definition:Tangent to Curve|tangent line]] $\mathcal T$ to $\mathcal C$ is given by: :$y - y_n = \dfrac {a - x_n} {y_n - b} \paren {x - x_n}$ The equations of the [[Definition:Vertical Tangent Line|vertical tangent lines]] to $\mathcal C$ are: :$x = r - a$ for $P = \tuple {r - a, b}$ :$x = a - r$ for $P = \tuple {a - r, b}$
+
+===
+
+:$i^i = \set {\exp \paren {\dfrac {4 k + 3} 2 \pi}: k \in \Z}$ where $i$ is the [[Definition:Imaginary Unit|imaginary unit]].
+
+===
+
+Let $m \in \Z_{>0}$ be a [[Definition:Strictly Positive Integer|(strictly) positive integer]]. Let $\Z_m$ be the [[Definition:Set of Residue Classes|set of residue classes modulo $m$]]: :$\Z_m = \set {\eqclass 0 m, \eqclass 1 m, \dotsc, \eqclass {m - 1} m}$ Then $\Z_m$ forms a [[Definition:Set Partition|partition]] of $\Z$.
+
+===
+
+The $2$nd [[Definition:Column of Pascal's Triangle|column]] and $2$nd [[Definition:Diagonal of Pascal's Triangle|diagonal]] of [[Definition:Pascal's Triangle|Pascal's triangle]] consists of the [[Definition:Set|set]] of [[Definition:Triangular Number|triangular numbers]].
+
+===
+
+Let $A$ be a [[measurable]] subset of $\R^n$ endowed with the standard Gaussian measure $\gamma^n$ with the density $\dfrac {\map \exp {-\norm x^2 / 2} } {\paren {2 \pi}^{n/2} }$ Denote by: :$A_\epsilon = \set {x \in \R^n: \map d {x, A} \le \epsilon}$ the $\epsilon$-extension of $A$. The '''Gaussian isoperimetric inequality''' states that: :$\displaystyle \liminf_{\epsilon \mathop \to +0} \epsilon^{-1} \set {\map {\gamma^n} {A_\epsilon} - \map {\gamma^n} A} \ge \map \varphi {\map {\Phi^{-1} } {\map {\gamma^n} A } }$ where: :$\map \varphi t = \dfrac {\map \exp {-t^2 / 2} } {\sqrt {2 \pi} }$ and: :$\map \Phi t = \displaystyle \int_{-\infty}^t \map \varphi s \rd s$
+
+===
+
+There exists at least one example of a [[Definition:Weakly Sigma-Locally Compact Space|weakly $\sigma$-locally compact topological space]] which is not also a [[Definition:Strongly Locally Compact Space|strongly locally compact space]].
+
+===
+
+Let $\struct {S, \preceq}$ be a [[Definition:Woset|woset]]. Let $a \in S$, and let $S_a$ be the [[Definition:Initial Segment|initial segment]] of $S$ determined by $a$. Then there is no [[Definition:Order Isomorphism|order isomorphism]] between $S$ and $S_a$.
+
+===
+
+Let $\mathbf 2$ denote [[Definition:Two (Boolean Algebra)|two]]. Then $\mathbf 2$ is a [[Definition:Boolean Algebra|Boolean algebra]].
+
+===
+
+Let $T$ be a [[Definition:Tree (Graph Theory)|tree]]. Then there is exactly one [[Definition:Path (Graph Theory)|path]] between any two [[Definition:Vertex of Graph|vertices]].
+
+===
+
+Let $n \Z$ be the [[Definition:Set of Integer Multiples|set of integer multiples]] of $n$. Then the [[Definition:Algebraic Structure|algebraic structure]] $\struct {n \Z, +}$ is [[Definition:Closed Algebraic Structure|closed]] under [[Definition:Integer Addition|addition]].
+
+===
+
+Let $P$ be a [[Definition:Physical System|physical system]]. Let it have the [[Definition:Action of Physical System|action]] $S$: :$\displaystyle S = \int_{t_0}^{t_1} L \rd t$ where $L$ is the [[Definition:Standard Lagrangian|standard Lagrangian]], and $t$ is [[Definition:Time|time]]. Suppose $L$ does not depend on [[Definition:Time|time]] explicitly: :$\dfrac {\partial L} {\partial t} = 0$ Then the [[Definition:Total Energy of Particles|total energy]] of $P$ is [[Definition:Constant (Physics)|conserved]].
+
+===
+
+Let $S$ be a [[Definition:Set|set]]. Let $\complement_S: \powerset S \to \powerset S$ denote the [[Definition:Relative Complement|relative complement mapping]] on the [[Definition:Power Set|power set]] of $S$. Then $\complement_S$ is a [[Definition:Bijection|bijection]]. Thus each $T \subseteq S$ is in [[Definition:Bijection|one-to-one correspondence]] with its [[Definition:Relative Complement|relative complement]].
+
+===
+
+:$S \cup \paren {S \cap T} = S \cap \paren {S \cup T}$
+
+===
+
+Let $\struct {R, +, \circ}$ be a [[Definition:Ring (Abstract Algebra)|ring]]. Let $J$ be an [[Definition:Ideal of Ring|ideal]] of $R$ Then $J$ induces a [[Definition:Congruence Relation|congruence relation]] $\EE_J$ on $R$ such that $\struct {R / J, +, \circ}$ is a [[Definition:Quotient Ring|quotient ring]].
+
+===
+
+The [[Definition:Integer Sequence|sequence]] $S = \sequence {s_n}$ defined as: :$\displaystyle s_n = \sum_{k \mathop = 1}^n k!$ begins: :$1, 3, 9, 33, 153, 873, 5913, 46 \, 233, 409 \, 113, 4 \, 037 \, 913, \ldots$ {{OEIS|A007489}}
+
+===
+
+Let $x = \tuple {a, 0}$ and $y = \tuple {b, 0}$ be [[Definition:Wholly Real|wholly real]] [[Definition:Complex Number|complex numbers]]. Then $x y$ is also [[Definition:Wholly Real|wholly real]].
+
+===
+
+:$\map \cot {x + \pi} = \cot x$
+
+===
+
+A [[Definition:Parallelogram|parallelogram]] can be constructed in a given [[Definition:Rectilineal Angle|angle]] the same size as any given [[Definition:Triangle (Geometry)|triangle]]. {{:Euclid:Proposition/I/42}}
+
+===
+
+Let $x$ and $y$ be [[Definition:Set|sets]] such that $x \sim y$. Then: :$\powerset x \sim \powerset y$
+
+===
+
+The [[Definition:Decimal Expansion|decimal representations]] of the [[Definition:Reciprocal|reciprocals]] of the first few [[Definition:Prime Number|prime numbers]] are as follows: :{| border="1" |- ! align="right" style = "padding: 2px 10px" | $n$ ! align="left" style = "padding: 2px 10px" | $1 / n$ ! style = "padding: 2px 10px" | Also see |- | align="right" style = "padding: 2px 10px" | $2$ | align="left" style = "padding: 2px 10px" | $0 \cdotp 5$ | style = "padding: 2px 10px" | |- | align="right" style = "padding: 2px 10px" | $3$ | align="left" style = "padding: 2px 10px" | $0 \cdotp \dot 3$ | style = "padding: 2px 10px" | |- |- | align="right" style = "padding: 2px 10px" | $5$ | align="left" style = "padding: 2px 10px" | $0 \cdotp 2$ | style = "padding: 2px 10px" | |- |- | align="right" style = "padding: 2px 10px" | $7$ | align="left" style = "padding: 2px 10px" | $0 \cdotp \dot 14285 \, \dot 7$ | style = "padding: 2px 10px" | [[Period of Reciprocal of 7 is of Maximal Length]] |- | align="right" style = "padding: 2px 10px" | $11$ | align="left" style = "padding: 2px 10px" | $0 \cdotp \dot 0 \dot 9$ | style = "padding: 2px 10px" | |- | align="right" style = "padding: 2px 10px" | $13$ | align="left" style = "padding: 2px 10px" | $0 \cdotp \dot 07692 \dot 3$ | style = "padding: 2px 10px" | |- | align="right" style = "padding: 2px 10px" | $17$ | align="left" style = "padding: 2px 10px" | $0 \cdotp \dot 05882 \, 35294 \, 11764 \, \dot 7$ | style = "padding: 2px 10px" | [[Period of Reciprocal of 17 is of Maximal Length]] |- | align="right" style = "padding: 2px 10px" | $19$ | align="left" style = "padding: 2px 10px" | $0 \cdotp \dot 05263 \, 15789 \, 47368 \, 42 \dot 1$ | style = "padding: 2px 10px" | [[Period of Reciprocal of 19 is of Maximal Length]] |- | align="right" style = "padding: 2px 10px" | $23$ | align="left" style = "padding: 2px 10px" | $0 \cdotp \dot 04347 \, 82608 \, 69565 \, 21739 \, 1 \dot 3$ | style = "padding: 2px 10px" | [[Period of Reciprocal of 23 is of Maximal Length]] |- | align="right" style = "padding: 2px 10px" | $29$ | align="left" style = "padding: 2px 10px" | $0 \cdotp \dot 03448 \, 27586 \, 20689 \, 65517 \, 24137 \, 93 \dot 1$ | style = "padding: 2px 10px" | |- | align="right" style = "padding: 2px 10px" | $31$ | align="left" style = "padding: 2px 10px" | $0 \cdotp \dot 03225 \, 80645 \, 1612 \dot 9$ | style = "padding: 2px 10px" | [[Period of Reciprocal of 31 is of Odd Length]] |- | align="right" style = "padding: 2px 10px" | $37$ | align="left" style = "padding: 2px 10px" | $0 \cdotp \dot 02 \dot 7$ | style = "padding: 2px 10px" | [[Period of Reciprocal of 37 has Length 3]] |}
+
+===
+
+Solution by Integrating Factor/Examples/y' - 3y = sin x/Proof 2
+
+===
+
+Let $\triangle ABC$ be a [[Definition:Triangle (Geometry)|triangle]]. Let $\omega$ be the [[Definition:Brocard Angle|Brocard angle]] of $\triangle ABC$. Then: :$8 \omega^3 < ABC$ where $A, B, C$ are measured in [[Definition:Radian|radians]].
+
+===
+
+Let $\pi$ be a [[Definition:Cyclic Permutation|$k$-cycle]]. Then: :$\map \sgn \pi = \begin{cases} 1 & : k \ \text {odd} \\ -1 & : k \ \text {even} \end{cases}$ Thus: :$\map \sgn \pi = \paren {-1}^{k - 1}$ or equivalently: :$\map \sgn \pi = \paren {-1}^{k + 1}$
+
+===
+
+Number of Primes is Infinite/Proof 2
+
+===
+
+Let the [[Definition:Fiber of Truth|fiber of truth]] of both $R$ and $S$ be [[Definition:Infinite Set|infinite]]. Let: :$\displaystyle \sum_{R \left({i}\right)} \sum_{S \left({i, j}\right)} \left\vert{a_{i j} }\right\vert$ exist. Then: :$\displaystyle \sum_{R \left({i}\right)} \sum_{S \left({i, j}\right)} a_{i j} = \sum_{S' \left({j}\right)} \sum_{R' \left({i, j}\right)} a_{i j}$ where: :$S' \left({j}\right)$ denotes the [[Definition:Propositional Function|propositional function]]: ::there exists an $i$ such that both $R \left({i}\right)$ and $S \left({i, j}\right)$ hold :$R' \left({i, j}\right)$ denotes the [[Definition:Propositional Function|propositional function]]: ::both $R \left({i}\right)$ and $S \left({i, j}\right)$ hold.
+
+===
+
+Volumes of Similar Cones and Cylinders are in Triplicate Ratio of Diameters of Bases
+
+===
+
+The [[Definition:Game|game]] of [[Definition:Matching Pennies|matching pennies]] is a [[Definition:Completely Mixed Game|completely mixed game]].
+
+===
+
+Volumes of Spheres are in Triplicate Ratio of Diameters
+
+===
+
+Let $F$ be a [[Definition:Mapping|mapping]]. Let the [[Definition:Domain (Mapping Theory)|domain]] of $F$ be a [[Definition:Small Class|small class]]. Then, $F$ is a [[Definition:Small Class|small class]].
+
+===
+
+Let $X$ be a [[Definition:Discrete Random Variable|discrete random variable]] with the [[Definition:Geometric Distribution|geometric distribution with parameter $p$]]. Then the [[Definition:Higher Derivative|derivatives]] of the [[Definition:Probability Generating Function|PGF]] of $X$ {{WRT|Differentiation}} $s$ are: :$\dfrac {\d^n} {\d s^n} \map {\Pi_X} s = \dfrac {q p^n n!} {\paren {1 - p s}^{n + 1} }$ where $q = 1 - p$.
+
+===
+
+Let $\mathbf a$ and $\mathbf b$ be [[Definition:Cardinal|cardinals]]. Then: : $\mathbf a \le \mathbf b \iff \exists \mathbf c: \mathbf a + \mathbf c = \mathbf b$ where $\mathbf c$ is also a [[Definition:Cardinal|cardinal]].
+
+===
+
+The number $154 \, 345 \, 556 \, 085 \, 770 \, 649 \, 600$ is [[Definition:Multiply Perfect Number|multiply perfect]] of [[Definition:Order of Multiply Perfect Number|order]] $6$: {{begin-eqn}} {{eqn | l = \sigma \left({154 \, 345 \, 556 \, 085 \, 770 \, 649 \, 600}\right) | r = 926 \, 073 \, 336 \, 514 \, 623 \, 897 \, 600 | c = }} {{eqn | r = 6 \times 154 \, 345 \, 556 \, 085 \, 770 \, 649 \, 600 | c = }} {{end-eqn}} It is the smallest [[Definition:Positive Integer|positive integer]] to be so.
+
+===
+
+Supremum of Set of Real Numbers is at least Supremum of Subset/Proof 3
+
+===
+
+Common Divisor Divides Difference/Proof 2
+
+===
+
+:$\paren {x - a}^2 + \paren {y - b}^2 = R^2$
+
+===
+
+Let $P, Q$ be [[Definition:Polynomial/Complex Numbers|polynomials]] with coefficients in $\C$. Let $\deg Q \ge \deg P + 1$. Let $\map Q z$ have a [[Definition:Order of Zero/Simple Zero|simple zero]] for $z \in X$. Let $\map {\laptrans f} z = \dfrac {\map P z} {\map Q z}$. Then: :$\displaystyle \map f t = \sum_{z \mathop \in X} e^{z t} \frac {\map P z} {\map {Q'} z}$
+
+===
+
+Let $L = \struct {S, \preceq}, R = \paren {T, \precsim}$ be [[Definition:Ordered Set|ordered sets]]. Let $g: S \to T, d:T \to S$ be [[Definition:Mapping|mappings]] such that: :$\tuple {g, d}$ is a [[Definition:Galois Connection|Galois connection]] and :$g$ is a [[Definition:Surjection|surjection]]. Then :$\forall t \in T: \map d t = \min \set {g^{-1} \sqbrk {\set t} }$
+
+===
+
+Fundamental Theorem of Calculus/First Part/Proof 1
+
+===
+
+Let $\struct {S, \vee, \wedge, \neg}$ be a [[Definition:Boolean Algebra/Definition 1|Boolean algebra, defined as in Definition 1]]. Let the [[Definition:Identity Element|identity]] for $\vee$ be $\bot$ and the [[Definition:Identity Element|identity]] for $\wedge$ be $\top$. Then: :$(1): \quad \forall x \in S: x \vee \top = \top$ :$(2): \quad \forall x \in S: x \wedge \bot = \bot$ That is, $\bot$ is a [[Definition:Zero Element|zero element]] for $\wedge$, and $\top$ is a [[Definition:Zero Element|zero element]] for $\vee$.
+
+===
+
+Law of Identity/Formulation 2/Proof 3
+
+===
+
+:$\lambda \circ e = 0_R \circ x = e$
+
+===
+
+:$2 T_n T_{n - 1} = T_{n^2 - 1}$ where $T_n$ denotes the $n$th [[Definition:Triangular Number|triangular number]].
+
+===
+
+Let $X$ be a [[Definition:Compact Space|compact topological space]]. Let $\struct {\mathbb K, \norm{\,\cdot\,}}$ be a [[Definition:Valued Field|valued field]]. Let $\left\langle{f_n}\right\rangle$ be a [[Definition:Sequence|sequence]] of [[Definition:Continuous Mapping|continuous mappings]] $f_n: X \to \mathbb K$. Let the [[Definition:Infinite Product|infinite product]] $\displaystyle \prod_{n \mathop = 1}^\infty f_n$ [[Definition:Uniform Convergence of Product|converge uniformly]] to $f$. Then $\displaystyle \prod_{n \mathop = 1}^\infty \norm{f_n}$ [[Definition:Uniform Convergence of Product|converges uniformly]] to $ \norm{f}$.
+
+===
+
+Let $X$ and $Y$ be [[Definition:Random Variable|random variables]]. Let the [[Definition:Expectation|expectations]] of $X$ and $Y$ exist and be finite. Then the [[Definition:Covariance|covariance]] of $X$ and $Y$ is given by: :$\cov {X, Y} = \expect {X Y} - \expect X \expect Y$
+
+===
+
+Let $\mathbf V$ be a [[Definition:Vector Space|vector space]], with [[Definition:Zero Vector|zero]] $\mathbf 0$. Likewise let $\mathbf V\,'$ be another vector space, with [[Definition:Zero Vector|zero]] $\mathbf 0'$. Let $T: \mathbf V \to \mathbf V\,'$ be a [[Definition:Linear Transformation on Vector Space|linear transformation]]. Then: :$T: \mathbf 0 \mapsto \mathbf 0'$
+
+===
+
+:$\map \sinh {a + b} = \sinh a \cosh b + \cosh a \sinh b$
+
+===
+
+Consider the [[Definition:Order 3 Magic Square|order 3 magic square]]: {{:Magic Square/Examples/Order 3}} The sums of the [[Definition:Square (Algebra)|squares]] of the [[Definition:Diagonal of Matrix|diagonals]], when expressed as $3$-digit [[Definition:Decimal Number|decimal numbers]], are equal to the sums of the [[Definition:Square (Algebra)|squares]] of those same [[Definition:Diagonal of Matrix|diagonals]] of that same [[Definition:Order 3 Magic Square|order 3 magic square]] when reversed. {{improve|Find a way to describe the "diagonals" accurately, as what is being demonstrated here does not match the description.}}
+
+===
+
+The [[Definition:Poincaré Plane|Poincaré plane]] $\struct {\H, L_H}$ is an [[Definition:Abstract Geometry|abstract geometry]].
+
+===
+
+Construction of Perpendicular Line
+
+===
+
+Let $f, g, h: S \to \R$ be [[Definition:Real-Valued Function|real-valued functions]]. Let $f \times g: S \to \R$ denote the [[Definition:Pointwise Multiplication of Real-Valued Functions|pointwise product of $f$ and $g$]]. Then: :$\left({f \times g}\right) \times h = f \times \left({g \times h}\right)$
+
+===
+
+Let $L = \struct {S, \preceq}$ be an [[Definition:Ordered Set|ordered set]]. Let $p \in S$. Then $p$ is [[Definition:Completely Irreducible|completely irreducible]] {{iff}} :$\exists q \in S: p \prec q \land \paren {\forall s \in S: p \prec s \implies q \preceq s} \land p^\succeq = \set p \cup q^\succeq$ where $p^\succeq$ denotes the [[Definition:Upper Closure of Element|upper closure of]] $p$.
+
+===
+
+Equivalence of Definitions of Bernoulli Numbers
+
+===
+
+Let $S$ be a [[Definition:Set|set]]. Let $\rho: S \to S$ be a [[Definition:Permutation|permutation]] on $S$. Then: :$\rho$ is a [[Definition:Cyclic Permutation|cyclic permutation]] {{iff}}: :$S$ has no more than one [[Definition:Orbit (Group Theory)|orbit]] under $\rho$ with more than one [[Definition:Element|element]].
+
+===
+
+Let $x, y \in \Q$ be [[Definition:Rational Number|rational numbers]]. Let $r^x$ be defined as [[Definition:Rational Power|$r$ to the power of $n$]]. Then: : $r^{x + y} = r^x \times r^y$
+
+===
+
+The [[Axiom:Axiom of Specification|Axiom of Specification]] states that: :$\forall z: \forall P \left({y}\right): \exists x: \forall y: \left({y \in x \iff \left({y \in z \land P \left({y}\right)}\right)}\right)$ We will prove that this statement is equivalent to the following statements: :$\forall z: \forall A: \left({\left({z \cap A}\right) \in U}\right)$ :$\forall z: \forall A: \left({A \subseteq z \implies A \in U}\right)$ In the above statements, the universe is $U$.
+
+===
+
+Exponential Function is Continuous
+
+===
+
+Let $p_1$ and $p_2$ be [[Definition:Prime Number|prime numbers]] such that $p_1 \neq p_2$. Let $\norm {\,\cdot\,}_{p_1}$ and $\norm {\,\cdot\,}_{p_2}$ be the [[Definition:P-adic Norm|$p$-adic norms]] on the [[Definition:Rational Numbers|rationals $\Q$]]. Then $\norm {\,\cdot\,}_{p_1}$ and $\norm {\,\cdot\,}_{p_2}$ are not [[Definition:Equivalent Division Ring Norms|equivalent norms]]. That is, the [[Definition:Topology Induced by Division Ring Norm|topology induced]] by $\norm {\,\cdot\,}_{p_1}$ does not equal the [[Definition:Topology Induced by Division Ring Norm|topology induced]] by $\norm {\,\cdot\,}_{p_2}$.
+
+===
+
+Let $\struct {S_1, \circ_1}$ and $\struct {S_2, \circ_2}$ be [[Definition:Algebraic Structure|algebraic structures]] with [[Definition:Identity Element|identity elements]] $e_1$ and $e_2$ respectively. Let $\struct {S_1 \times S_2, \circ}$ be the [[Definition:External Direct Product|external direct product]] of $\struct {S_1, \circ_1}$ and $\struct {S_2, \circ_2}$ Let: :$\pr_1: \struct {S_1 \times S_2, \circ} \to \struct {S_1, \circ_1}$ be the [[Definition:First Projection|first projection]] from $\struct {S_1 \times S_2, \circ}$ to $\struct {S_1, \circ_1}$ :$\pr_2: \struct {S_1 \times S_2, \circ} \to \struct {S_2, \circ_2}$ be the [[Definition:Second Projection|second projection]] from $\struct {S_1 \times S_2, \circ}$ to $\struct {S_2, \circ_2}$. Let: :$\inj_1: \struct {S_1, \circ_1} \to \struct {S_1 \times S_2, \circ}$ be the [[Definition:Canonical Injection (Abstract Algebra)|canonical injection]] from $\struct {S_1, \circ_1}$ to $\struct {S_1 \times S_2, \circ}$ :$\inj_2: \struct {S_2, \circ_2} \to \struct {S_1 \times S_2, \circ}$ be the [[Definition:Canonical Injection (Abstract Algebra)|canonical injection]] from $\struct {S_2, \circ_2}$ to $\struct {S_1 \times S_2, \circ}$. Then: :$(1): \quad \pr_1 \circ \inj_1 = I_{S_1}$ :$(2): \quad \pr_2 \circ \inj_2 = I_{S_2}$ where $I_{S_1}$ and $I_{S_2}$ are the [[Definition:Identity Mapping|identity mappings]] on $S_1$ and $S_2$ respectively.
+
+===
+
+Let $\struct {F, +, \times}$ be a [[Definition:Field (Abstract Algebra)|field]] whose [[Definition:Field Zero|zero]] is $0_F$. Let $a \in F$ such that $a \ne 0_F$. Then the [[Definition:Multiplicative Inverse in Field|multiplicative inverse]] $a^{-1}$ of $a$ is [[Definition:Unique|unique]].
+
+===
+
+Let $G$ be a [[Definition:Group|group]] whose [[Definition:Identity Element|identity]] is $e$. Let: : $H$ be a [[Definition:Subgroup|subgroup]] of $G$ : $N$ be a [[Definition:Normal Subgroup|normal subgroup]] of $G$. Then: : $N \lhd N H$ where: : $\lhd$ denotes [[Definition:Normal Subgroup|normal subgroup]] : $N H$ denotes [[Definition:Subset Product|subset product]].
+
+===
+
+Let $\left({S, \preceq}\right)$, $\left({T, \precsim}\right)$ be [[Definition:Ordered Set|ordered sets]]. Let $g: S \to T$ and $d: T \to S$ be [[Definition:Mapping|mappings]] such that: :$g$ and $d$ are [[Definition:Increasing Mapping|increasing mappings]] and :$d \circ g \preceq I_S$ and $I_T \precsim g \circ d$ Then :$\left({g, d}\right)$ is [[Definition:Galois Connection|Galois connection]]. where :$\preceq, \precsim$ denote the [[Definition:Ordering on Mappings|orderings on mappings]] :$I_S$ denotes the [[Definition:Identity Mapping|identity mapping]] of $S$ :$\circ$ denotes the [[Definition:Composition of Mappings|composition of mappings]].
+
+===
+
+Congruence Relation iff Compatible with Operation/Proof 2
+
+===
+
+Let $\struct {X, \Sigma, \mu}$ be a [[Definition:Measure Space|measure space]].
+
+===
+
+Let $x \in \R$ be a [[Definition:Real Number|real number]] such that $-1 \le x \le 1$. Then: : $\arcsin x + \arccos x = \dfrac \pi 2$ where $\arcsin$ and $\arccos$ denote [[Definition:Arcsine|arcsine]] and [[Definition:Arccosine|arccosine]] respectively.
+
+===
+
+:$\csc 75 \degrees = \csc \dfrac {5 \pi} {12} = \sqrt 6 - \sqrt 2$
+
+===
+
+Let $M = \struct {A, d}$ be a [[Definition:Metric Space|metric space]] which is [[Definition:Sequentially Compact Space|sequentially compact]]. Then $M$ is [[Definition:Complete Metric Space|complete]].
+
+===
+
+An [[Definition:Acute Angle|acute angle]] measures $\theta$, where: :$0 \degrees < \theta < 90 \degrees$ or: :$0 < \theta < \dfrac \pi 2$
+
+===
+
+Vector Cross Product is Anticommutative/Proof 3
+
+===
+
+The [[Definition:Image of Mapping|image]] of the [[Definition:Complex Exponential Function|complex exponential function]] is $\C \setminus \left\{ {0}\right\}$.
+
+===
+
+Let $T = \struct {\mathbb R, \tau}$ be the [[Definition:Sorgenfrey Line|Sorgenfrey line]]. Then $T$ is not [[Definition:Second-Countable Space|second-countable]].
+
+===
+
+Equivalence of Definitions of Stirling Numbers of the Second Kind
+
+===
+
+Let $X$ be a [[Definition:Metric Space|metric space]]. Let $\struct {\mathbb K, \norm{\,\cdot\,}}$ be a [[Definition:Valued Field|valued field]]. Let $\left\langle{f_n}\right\rangle$ be a [[Definition:Sequence|sequence]] of [[Definition:Bounded Mapping|bounded]] [[Definition:Continuous Mapping|continuous mappings]] $f_n: X \to \mathbb K$. Let the product $\displaystyle \prod_{n \mathop = 1}^\infty f_n$ [[Definition:Uniform Convergence of Product|converge uniformly]] to $f$. Then $f$ is [[Definition:Continuous Mapping|continuous]].
+
+===
+
+Let $a_1, a_2, \ldots, a_n$ be [[Definition:Integer|integers]]. Then $\gcd \set {a_1, a_2, \ldots, a_n} = 1$ {{iff}} there exists an [[Definition:Integer Combination|integer combination]] of them equal to $1$: :$\exists m_1, m_2, \ldots, m_n \in \Z: \ds \sum_{k \mathop = 1}^n m_k a_k = 1$
+
+===
+
+Equivalence of Definitions of Bijection/Definition 1 iff Definition 3
+
+===
+
+Let $x \in \R_{>0}$ be a [[Definition:Strictly Positive Real Number|(strictly) positive real number]]. Let $n \in \Z$ be an [[Definition:Integer|integer]]. Then: :$x^n > 0$ where $x^n$ denotes the [[Definition:Integer Power|$n$th power of $x$]].
+
+===
+
+:$\displaystyle \int \frac {\d x} {\paren {\cosh a x - 1}^2} = \frac 1 {2 a} \coth \frac {a x} 2 - \frac 1 {6 a} \coth^3 \frac {a x} 2 + C$
+
+===
+
+Let $\struct {B, \preceq, \wedge, \vee}$ be a non-empty [[Definition:Boolean Algebra|Boolean algebra]]. Let $\struct {U, \tau}$ be the [[Definition:Stone Space|Stone space]] of $B$. Then $\struct {U, \tau}$ is a [[Definition:Topological Space|topological space]].
+
+===
+
+Let $n \in \Z$ be an [[Definition:Integer|integer]]. Let $R: \Z \to \set {\mathrm T, \mathrm F}$ be the [[Definition:Propositional Function|propositional function]] on the [[Definition:Integer|set of integers]] defining: :$\forall i \in \Z: \map R 1 := \paren {n = k i \text { for some } k \in \Z}$ Let $S: \Z \times \Z \to \set {\mathrm T, \mathrm F}$ be a [[Definition:Propositional Function|propositional function]] on the [[Definition:Cartesian Product|Cartesian product]] of the [[Definition:Integer|set of integers]] with itself defining: :$\forall i, j \in \Z: \map S {i, j} := \paren {1 \le j < i}$ Consider the [[Definition:Summation|summation]]: :$\displaystyle \sum_{\map R i} \sum_{\map S {i, j} } a_{i j}$ Then: :$\displaystyle \sum_{\map R i} \sum_{\map S {i, j} } a_{i j} = \sum_{\map {S'} j} \sum_{\map {R'} {i, j} } a_{i j}$ where: :$\map {S'} j$ denotes the [[Definition:Propositional Function|propositional function]]: ::$\forall j \in \Z: \map {S'} j := \paren {1 < j \le n}$ :$\map {R'} {i, j}$ denotes the [[Definition:Propositional Function|propositional function]]: ::$\forall i, j \in \Z: \map {R'} {i, j} := \paren {n = k i \text { for some } k \in \Z \text { and } i > j}$
+
+===
+
+Let $a, b \in \R$ be [[Definition:Real Number|real numbers]] such that $a \ne 0$. Let $f: \R \to \R$ be the [[Definition:Real Function|real function]] defined as: :$\forall x \in \R: \map f x = a x + b$ Then the [[Definition:Inverse Mapping|inverse]] of $f$ is given by: :$\forall y \in \R: \map {f^{-1} } y = \dfrac {y - b} a$
+
+===
+
+Let $S$ be a [[Definition:Subset|subset]] of the [[Definition:Natural Number|natural numbers]] $\N$. Then $S$ is either [[Definition:Finite Set|finite]] or [[Definition:Denumerable Class|denumerable]].
+
+===
+
+Let $\displaystyle \map f x := \sum_{n \mathop = 0}^\infty a_n \paren {x - \xi}^n$ be a [[Definition:Power Series|power series]] about a point $\xi$. Let $R$ be the [[Definition:Radius of Convergence|radius of convergence]] of $S$. Then: :$\displaystyle \frac \d {\d x} \map f x = \sum_{n \mathop = 0}^\infty \frac \d {\d x} a_n x^n = \sum_{n \mathop = 1}^\infty n a_n x^{n - 1}$
+
+===
+
+Let $\theta$ be the [[Definition:Angular Coordinate|angular coordinate]] of a [[Definition:Point|point]] $P$ in a [[Definition:Polar Coordinate Plane|polar coordinate plane]]. Let $QOR$ be a [[Definition:Straight Line|straight line]] that [[Definition:Bisection|bisects]] the [[Definition:Angle|angle]] $\theta$. Then the [[Definition:Angular Coordinate|angular coordinates]] of $Q$ and $R$ are $\dfrac \theta 2$ and $\pi + \dfrac \theta 2$.
+
+===
+
+Let $\mathcal E$ be an [[Definition:Experiment|experiment]] with a [[Definition:Probability Space|probability space]] $\left({\Omega, \Sigma, \Pr}\right)$. The [[Definition:Event Space|event space]] $\Sigma$ of $\mathcal E$ has the following properties:
+
+===
+
+$\aleph_0 < \mathfrak c$ where :$\aleph$ denotes the [[Definition:Aleph Mapping|aleph mapping]], :$\mathfrak c$ denotes [[Definition:Cardinality of Continuum|continuum]], the [[Definition:Cardinality|cardinality]] of [[Definition:Real Number|real numbers]].
+
+===
+
+Partition of Integer where Part Appears no more than Twice
+
+===
+
+When expressed in [[Definition:Binary Notation|binary notation]], the number of [[Definition:Digit|digits]] in $1000$ is $10$.
+
+===
+
+Let $x$ be an [[Definition:Ordinal|ordinal]]. Let $x^+$ denote the [[Definition:Successor Set|successor]] of $x$. Let $1$ denote [[Definition:One (Ordinal)|(ordinal) one]], the [[Definition:Successor Set|successor]] of the [[Definition:Zero (Ordinal)|zero ordinal]] $\O$. Then: :$x + 1 = x^+$ where $+$ denotes [[Definition:Ordinal Addition|ordinal addition]].
+
+===
+
+The [[Definition:Real Number|set of real numbers]] $\R$ forms an [[Definition:Ordered Integral Domain|ordered integral domain]] under [[Definition:Real Addition|addition]] and [[Definition:Real Multiplication|multiplication]]: $\struct {\R, +, \times, \le}$.
+
+===
+
+Let $\left ({S, \circ}\right)$ be a [[Definition:Semigroup|semigroup]]. Let $a, b \in S$ both be [[Definition:Cancellable Element|cancellable elements]] of $S$. Then the following results hold:
+
+===
+
+Equivalence of Definitions of Odd Integer
+
+===
+
+Let $S$ be a [[Definition:Set|set]] whose [[Definition:Cardinality|cardinality]] is equal to $1$: :$\card S = 1$ Let $\odot \subseteq S \times S$ be a [[Definition:Endorelation|relation on $S$]]. Then $\odot$ is both [[Definition:Symmetric Relation|symmetric]] and [[Definition:Transitive Relation|transitive]].
+
+===
+
+Let $n \in \Z_{\ge 1}$ be a [[Definition:Strictly Positive Integer|(strictly) positive integer]]. Let: :$n = \displaystyle \prod_{i \mathop = 1}^s p_i^{m_i}$ where the $p_i$ are [[Definition:Distinct Elements|distinct]] [[Definition:Prime Number|primes]]. Let $\map {\nu_a} n$ denote the number of [[Definition:Abelian Group|abelian groups]] of [[Definition:Order of Group|order]] $n$. Then: :$\map {\nu_a} n = \displaystyle \prod_{i \mathop = 1}^s \map {\nu_a} {p_i^{m_i} }$ where: :$\map {\nu_a} {p_i^{m_i} }$ is the number of [[Definition:Integer Partition|integer partitions]] of $m_i$.
+
+===
+
+:$\displaystyle \int \frac {x \ \mathrm d x} {x^4 - a^4} = \frac 1 {4 a^2} \ln \left\vert{\frac {x^2 - a^2} {x^2 + a^2} }\right\vert + C$
+
+===
+
+Laplace Transform of Sine/Proof 3
+
+===
+
+Let $J$ be a [[Definition:Continuous Functional|continuous functional]]. Let $\sequence {\phi_n}$ be a [[Definition:Complete Ritz Sequence|complete Ritz sequence]]. {{explain|The concept of $\sequence {\phi_n}$ does not appear to be related in any way to the statement of the theorem.}} Then: :$\displaystyle \lim_{n \mathop \to \infty} \mu_n = \mu$ where $\displaystyle \mu = \inf_y J \sqbrk y$.
+
+===
+
+Let $y$ be a [[Definition:Real Function|real mapping]] belonging to $C^2$ [[Definition:Differentiability Class|differentiability class]]. Assume that: :$\ds J \sqbrk y = \int_a^b \map f {x, y, y'} \rd s$ where :$\rd s = \sqrt {1 + y'^2} \rd x$ Then [[Definition:Euler's Equation for Vanishing Variation|Euler's Equation]] can be reduced to: :$f_y - f_x y' - f_{y'} y' y'' - f \dfrac {y''} {\paren {1 + y'^2}^{\frac 3 2} } = 0$
+
+===
+
+$H$ is an [[Definition:F-Sigma Set|$F_\sigma$ ($F$-sigma) set]] of $T$ {{iff}} either $H = S$ or $H = \O$.
+
+===
+
+The [[Definition:Graph of Mapping|graph]] of a [[Definition:Real Function|real function]] has at most two [[Definition:Horizontal Asymptote|horizontal asymptotes]].
+
+===
+
+The [[Definition:Set|set]] of [[Definition:Integer|integers]] under [[Definition:Integer Multiplication|multiplication]] $\struct {\Z, \times}$ is a [[Definition:Countably Infinite Set|countably infinite]] [[Definition:Semigroup|semigroup]].
+
+===
+
+Let the following conditions be fulfilled: : Let $\left({S, \circ}\right)$ be a [[Definition:Commutative Semigroup|commutative semigroup]] with [[Definition:Cancellable Element|cancellable elements]] : Let $\phi$ be an [[Definition:Isomorphism (Abstract Algebra)|isomorphism]] from $\left({S, \circ}\right)$ into a [[Definition:Semigroup|semigroup]] $\left({T, *}\right)$ : Let $\left({S', \circ'}\right)$ be an [[Definition:Inverse Completion|inverse completion]] of $\left({S, \circ}\right)$ : Let $\left({T', \circ'}\right)$ be an [[Definition:Inverse Completion|inverse completion]] of $\left({T, \circ}\right)$. Then there is a unique [[Definition:Isomorphism (Abstract Algebra)|isomorphism]] $\phi': S' \to T'$ extending $\phi$.
+
+===
+
+:$9^{9^9}$ has $369 \, 693 \, 100$ [[Definition:Digit|digits]] when expressed in [[Definition:Decimal Notation|decimal notation]].
+
+===
+
+Let $S$ and $T$ be [[Definition:Set|sets]]. Let $f: S \to T$ be a [[Definition:Mapping|mapping]]. Let ${\precsim} \subseteq T \times T$ be a [[Definition:Preordering|preordering]] on $T$. Let $\RR$ be the [[Definition:Relation|relation]] defined on $S$ by the rule: :$x \mathrel \RR y \iff \map f x \precsim \map f y$ Then $\RR$ is a [[Definition:Preordering|preordering]] on $S$.
+
+===
+
+:$\displaystyle \int_0^{\pi/2} \map \ln {\cos x} \rd x = -\frac \pi 2 \ln 2$
+
+===
+
+One [[Definition:Full Angle|full angle]] is equal to $2 \pi$ [[Definition:Radian|radians]]. :$2 \pi \approx 6 \cdotp 28318 \, 53071 \, 79586 \, 4769 \ldots$ {{OEIS|A019692}}
+
+===
+
+=== [[Sine of Sum]] === {{:Sine of Sum}} === [[Cosine of Sum]] === {{:Cosine of Sum}} === [[Tangent of Sum]] === {{:Tangent of Sum}}
+
+===
+
+Let $A, B, S$ be [[Definition:Set|sets]] or [[Definition:Class (Class Theory)|classes]]. Suppose that $A \subseteq B$. Then $S \setminus B \subseteq S \setminus A$, where $\setminus$ represents [[Definition:Set Difference|set difference]].
+
+===
+
+The [[Definition:First Order ODE|first order ODE]]: :$(1): \quad y^2 \rd x = \paren {x^3 - x y} \rd y$ has the [[Definition:General Solution to Differential Equation|general solution]]: :$3 y = 2 x^2 + C x^2 y^2$
+
+===
+
+Let $T$ be a [[Definition:Tree (Graph Theory)|tree]] of [[Definition:Order of Graph|order]] $n$. Then the [[Definition:Size of Graph|size]] of $T$ is $n-1$.
+
+===
+
+:$\displaystyle \left({x + y}\right)^n = \sum_k \binom n k x \left({x - k z}\right)^{k - 1} \left({y + k z}\right)^{n - k}$
+
+===
+
+Let $G$ be a [[Definition:Group|group]]. Let $H \le G$ such that $\index G H = n$ where $n \in \Z$. Then: : $\exists N \lhd G: N \lhd H: n \divides \index G H \divides n!$
+
+===
+
+:$\displaystyle \int \csch^n a x \rd x = \frac {-\csch^{n - 2} a x \coth a x} {a \paren {n - 1} } - \frac {n - 2} {n - 1} \int\csch^{n - 2} a x \rd x + C$
+
+===
+
+Let $\struct {R, +, \circ}$ be a [[Definition:Ring (Abstract Algebra)|ring]]. Then: :$\forall x, y \in \struct {R, +, \circ}: \paren {-x} \circ y = -\paren {x \circ y} = x \circ \paren {-y}$ where $\paren {-x}$ denotes the [[Definition:Ring Negative|negative]] of $x$.
+
+===
+
+Equivalence of Definitions of Exponential Function
+
+===
+
+Let $\left({S, \circ_1}\right)$ and $\left({T, \circ_2}\right)$ be [[Definition:Algebraic Structure|algebraic structures]] where $S$ and $T$ both have at least two [[Definition:Distinct Elements|distinct elements]]. Let $\left({S \times T, \circ}\right)$ be their [[Definition:External Direct Product|external direct product]]. Then $\left({S \times T, \circ}\right)$ is [[Definition:Anticommutative/Structure with One Operation|anticommutative]] [[Definition:Iff|iff]] at least one of $\left({S, \circ_1}\right)$ and $\left({T, \circ_2}\right)$ is.
+
+===
+
+From Medial Straight Line arises Infinite Number of Irrational Straight Lines
+
+===
+
+Let $G$ be a $\tuple {p, q}$-[[Definition:Undirected Graph|undirected graph]], which may be a [[Definition:Multigraph|multigraph]] or a [[Definition:Loop-Graph|loop-graph]], or both. Let $V = \set {v_1, v_2, \ldots, v_p}$ be the [[Definition:Vertex Set|vertex set]] of $G$. Then: :$\displaystyle \sum_{i \mathop = 1}^p \map {\deg_G} {v_i} = 2 q$ where $\map {\deg_G} {v_i}$ is the [[Definition:Degree of Vertex|degree]] of [[Definition:Vertex of Graph|vertex]] $v_i$. That is, the [[Definition:Integer Addition|sum]] of all the [[Definition:Degree of Vertex|degrees]] of all the [[Definition:Vertex of Graph|vertices]] of an [[Definition:Undirected Graph|graph]] is equal to twice its [[Definition:Size of Graph|size]]. This result is known as the '''Handshake Lemma''' or '''Handshaking Lemma'''.
+
+===
+
+Let $\left({X, \Sigma, \mu}\right)$ be a [[Definition:Measure Space|measure space]]. Then $\mu$ is a [[Definition:Countably Subadditive Function|countably subadditive function]].
+
+===
+
+Let $\struct {\Q, \tau_d}$ be the [[Definition:Rational Number Space|rational number space]] under the [[Definition:Euclidean Topology on Real Number Line|Euclidean topology]] $\tau_d$. Then every [[Definition:Singleton|singleton]] [[Definition:Subset|subset]] of $\Q$ is [[Definition:Nowhere Dense|nowhere dense]] in $\struct {\Q, \tau_d}$.
+
+===
+
+Let $\Sigma$ be a [[Definition:Sigma-Algebra|$\sigma$-algebra]] on a [[Definition:Set|set]] $X$. Then $\Sigma$ is also a [[Definition:Monotone Class|monotone class]].
+
+===
+
+Let $\map h x : \closedint a b \to \R$ be [[Definition:Continuously Differentiable|continuously differentiable]] $\forall x \in \closedint a b$. Suppose the function $\map h x$ satisfies the equation: :$-\map {\dfrac \d {\d x} } {\paren {t P + \paren {1 - t} } h'} + t Q h = 0$ subject to the boundary conditions: :$\map h {a, t} = \map h {b, t} = 0$ Then: :$\displaystyle \int_a^b \paren {\paren {P h'^2 + Q h^2} t + \paren {1 - t} h'^2} \rd x = 0$
+
+===
+
+Let $M = \struct {A, d}$ be a [[Definition:Metric Space|metric space]]. Then the [[Definition:Empty Set|empty set]] $\varnothing$ is [[Definition:Closed Set (Metric Space)|closed]] in $M$.
+
+===
+
+Let $(S, \preceq)$ be an [[Definition:Ordered Set|ordered set]]. Let $I$ be a [[Definition:Set|set]]. Let $f, g: I \to S$. Let $f \left[{I}\right]$ denote the [[Definition:Image of Subset under Mapping|image of $I$ under $f$]]. Let: :$\forall i \in I: f \left({i}\right) \preceq g \left({i}\right)$ That is, let $f \preceq g$ in the product ordering. Let $f \left[{I}\right]$ and $g \left[{I}\right]$ admit [[Definition:Supremum of Set|suprema]]. Then: : $\sup f \left[{I}\right] \preceq \sup g \left[{I}\right]$
+
+===
+
+The [[Definition:Trivial Group|trivial group]] is a [[Definition:Group|group]].
+
+===
+
+Let $\struct {S, \circ}$ be a [[Definition:Magma|magma]]. Let the [[Definition:(1-3) Parastrophe|$(1-3)$ parastrophe]] of $\struct {S, \circ}$ be a [[Definition:Magma|magma]]. Then $\struct {S, \circ}$ is a [[Definition:Right Quasigroup|right quasigroup]].
+
+===
+
+Proof by Cases/Sequent Form/Proof 1
+
+===
+
+Partial Derivative wrt z of z^2 equals x^2 - 2 x y - 1 at (1, -2, -2)/Implicit Method
+
+===
+
+Two [[Definition:Triangle (Geometry)|triangles]] which have two corresponding [[Definition:Angle|angles]] which are equal are [[Definition:Similar Triangles|similar]].
+
+===
+
+$\dfrac 3 5$ cannot be expressed as a [[Definition:Pandigital Fraction|pandigital fraction]].
+
+===
+
+The [[Definition:Second Order ODE|second order ODE]]: :$(1): \quad \paren {D^4 - 1} y' = \sin x$ has a [[Definition:General Solution to Differential Equation|general solution]]: :$y = C_1 e^x + C_2 e^{-x} + C_3 \sin x + C_4 \cos x + \dfrac {x \cos x} 4$
+
+===
+
+:$\sequence {x_n + y_n}$ is [[Definition:Convergent Sequence in Normed Division Ring|convergent]] and $\displaystyle \lim_{n \mathop \to \infty} \paren {x_n + y_n} = l + m$
+
+===
+
+Let $T_1 = \struct {S_1, \preceq_1, \tau_1}$ and $T_2 = \struct {S_2, \preceq_2, \tau_2}$ be [[Definition:Up-Complete|up-complete]] [[Definition:Topological Lattice|topological lattices]] with [[Definition:Scott Topology|Scott topologies]]. Let $f: S_1 \to S_2$ be a [[Definition:Continuous (Topology)|continuous]] [[Definition:Mapping|mapping]]. Then $f$ is an [[Definition:Increasing Mapping|increasing mapping]].
+
+===
+
+Let $\phi: \R^\R \to \R^\R, y \mapsto \phi\left({y}\right)$ be a [[Definition:Linear Operator|linear operator]] on the space of functions from $\R\to\R$. Let $y$ be a [[Definition:Real Function|real function]] such that $\forall x \in \R$, $y\left({x}\right) > \mathbf{0}\left({x}\right) = 0$. Let $\log_a y$ be the [[Definition:General Logarithm|logarithm of $y$ to base $a$]]. Then: :$\phi \left({\log_a y}\right) = \dfrac 1 {\ln a} \left({\phi \left({\ln y}\right)}\right)$ where $\ln$ is the [[Definition:Natural Logarithm|natural logarithm]].
+
+===
+
+Let $S_n$ denote the $n$th [[Definition:Fibonacci String|Fibonacci string]]. Let $\len \left({S_n}\right)$ denote the [[Definition:Length of String|length]] of $S_n$. Then: :$\len \left({S_n}\right) = F_n$ where $F_n$ denotes the $n$th [[Definition:Fibonacci Number|Fibonacci number]].
+
+===
+
+Let $z \in \C$ be a [[Definition:Complex Number|complex number]] such that: :$\cmod z = 1$ :$\Re \paren z = -\dfrac 1 2$ where: :$\cmod z$ denotes the [[Definition:Complex Modulus|complex modulus]] of $z$ :$\Re \paren z$ denotes the [[Definition:Real Part|real part]] of $z$. Then: :$z^3 = 1$
+
+===
+
+Let $\map P n$ be a [[Definition:Propositional Function|propositional function]] depending on $n \in \N$. Suppose that: :$(1): \quad \map P 0$ is [[Definition:True|true]] :$(2): \quad \forall k \in \N: k \ge 0 : \map P k \implies \map P {k + 1}$ Then: :$\map P n$ is [[Definition:True|true]] for all $n \in \N$.
+
+===
+
+:$\relcomp S {T_1 \cap T_2} = \relcomp S {T_1} \cup \relcomp S {T_2}$
+
+===
+
+Square on Major Straight Line applied to Rational Straight Line
+
+===
+
+Let $X$ be a [[Definition:Discrete Random Variable|discrete random variable]] with the [[Definition:Discrete Uniform Distribution|discrete uniform distribution with parameter $n$]]. Then the [[Definition:Probability Generating Function|p.g.f.]] of $X$ is: :$\displaystyle \map {\Pi_X} s = \frac {s \paren {1 - s^n} } {n \paren {1 - s} }$
+
+===
+
+Axiom of Foundation (Strong Form)/Proof 1
+
+===
+
+:$p \land q \dashv \vdash \neg \left({p \implies \neg q}\right)$
+
+===
+
+The [[Definition:Prime-Counting Function|prime-counting function]] approximates to the [[Definition:Eulerian Logarithmic Integral|Eulerian logarithmic integral]]: :$\map \pi n \approx \displaystyle \int_2^n \frac {\d x} {\ln x}$
+
+===
+
+Order-Extension Principle/Strict/Proof 2
+
+===
+
+Let $z \in \C$ be a [[Definition:Complex Number|complex number]]. Let $\overline z$ be the [[Definition:Complex Conjugate|complex conjugate]] of $z$. Let $\map \Im z$ be the [[Definition:Imaginary Part|imaginary part]] of $z$. Then :$z - \overline z = 2 i \, \map \Im z$
+
+===
+
+:$\displaystyle \int \cot^3 a x \rd x = \frac {-\cot^2 a x} {2 a} - \frac 1 a \ln \size {\sin a x} + C$
+
+===
+
+Let $\struct {R, \norm {\,\cdot\,}}$ be a [[Definition:Normed Division Ring|normed division ring]]. Let $\sequence {x_n}$, $\sequence {y_n} $ be [[Definition:Sequence|sequences in $R$]]. Let $\sequence {x_n}$ and $\sequence {y_n}$ be [[Definition:Convergent Sequence in Normed Division Ring|convergent in the norm]] $\norm {\,\cdot\,}$ to the following [[Definition:Limit of Sequence (Normed Division Ring)|limits]]: :$\displaystyle \lim_{n \mathop \to \infty} x_n = l$ :$\displaystyle \lim_{n \mathop \to \infty} y_n = m$ Then: {{:Combination Theorem for Sequences/Normed Division Ring/Product Rule}}
+
+===
+
+Let $M = \struct {X, \norm {\, \cdot \,}}$ be a [[Definition:Normed Vector Space|normed vector space]]. Let $\Bbb S := \set {x \in X : \norm {x} = 1}$ be a [[Definition:Unit Sphere/Normed Vector Space|unit sphere]] in $M$. Then $\Bbb S$ is [[Definition:Closed Set in Normed Vector Space|closed]] in $M$.
+
+===
+
+Let $n \in \N$. Let $b_1, b_2, \dots, b_n$ be [[Definition:Real Number|real numbers]]. Let $\mathbf b = \tuple {b_1, b_2, \dots, b_n}^T$. Let $x_1, x_2, \dots, x_n$ be [[Definition:Real Number|real numbers]]. Let $\mathbf x = \tuple {x_1, x_2, \dots, x_n}^T$. Let $A$ be an [[Definition:Invertible Matrix|invertible]] $n \times n$ [[Definition:Matrix|matrix]] with coefficients in $\R$. For each $i \in \set {1, \dots, n}$, let $A_i$ be the matrix obtained by replacing the $i$th column with $\mathbf b$. Let: :$A \mathbf x = \mathbf b$ Then: :$\mathbf x_i = \dfrac {\map \det {A_i} } {\map \det A}$ for each $i \in \set {1, \dots, n}$.
+
+===
+
+Let $\struct {R, \norm { \, \cdot \, } }$ be a [[Definition:Normed Division Ring|normed division ring]]. Let $\sequence {x_n}$ be a [[Definition:Convergent Sequence in Normed Division Ring|convergent sequence]] in $R$ to the [[Definition:Limit of Sequence (Number Field)|limit]] $l$. That is, let $\displaystyle \lim_{n \mathop \to \infty} x_n = l$. Then :$\displaystyle \lim_{n \mathop \to \infty} \norm {x_n} = \norm l$
+
+===
+
+Proof by Cases/Formulation 1/Proof
+
+===
+
+Magic Constant of Order 4 Magic Square/Proof 2
+
+===
+
+{{begin-eqn}} {{eqn | l = \Gamma \left({m + \frac 1 2}\right) | r = \frac {\left({2 m}\right)!} {2^{2 m} m!} \sqrt \pi | c = }} {{eqn | r = \frac {1 \times 3 \times 5 \times \cdots \times \left({2 m - 1}\right)} {2^m} \sqrt \pi | c = }} {{end-eqn}} where: : $m + \dfrac 1 2$ is a [[Definition:Half-Integer|half-integer]] such that $m > 0$ : $\Gamma$ denotes the [[Definition:Gamma Function|Gamma function]].
+
+===
+
+Variance of Gamma Distribution/Proof 1
+
+===
+
+Let $T_A = \struct {S_A, \tau_A}$ and $T_B = \struct {S_B, \tau_B}$ be [[Definition:Topological Space|topological spaces]]. Let $\phi: T_A \to T_B$ be a [[Definition:Surjection|surjective]] [[Definition:Open Mapping|open mapping]] which is also [[Definition:Everywhere Continuous Mapping (Topology)|continuous]]. If $T_A$ is [[Definition:Second-Countable Space|second-countable]], then $T_B$ is also [[Definition:Second-Countable Space|second-countable]].
+
+===
+
+The only [[Definition:Positive Integer|positive integer]] which is the sum of exactly $3$ of its [[Definition:Distinct Elements|distinct]] [[Definition:Coprime Integers|coprime]] [[Definition:Divisor of Integer|divisors]] is $6$.
+
+===
+
+Then: :$\forall A \in \powerset S, B \in \powerset T: \map {f^\to} {A \cap \map {f^\gets} B} = \map {f^\to} A \cap B$
+
+===
+
+:$1331 = 11^3 = 19^2 + 21^2 + 23^2$
+
+===
+
+:$\cos \left({\dfrac {3 \pi} 2 - \theta}\right) = - \sin \theta$ where $\cos$ and $\sin$ are [[Definition:Cosine|cosine]] and [[Definition:Sine|sine]] respectively.
+
+===
+
+Let $T = \struct {S, \tau}$ be a [[Definition:Topological Space|topological space]]. Let $V$ be an [[Definition:Open Set (Topology)|open set]] of $T$. Then it is not necessarily the case that $V$ is an [[Definition:F-Sigma Set|$F_\sigma$ set]] of $T$.
+
+===
+
+Let $r \in \R_{> 0}$ be a [[Definition:Strictly Positive Real Number|(strictly) positive real number]]. Let $\psi, \tau \in \C$ be [[Definition:Complex Number|complex numbers]]. Let $r^\lambda$ be defined as the [[Definition:Power (Algebra)/Complex Number/Principal Branch/Positive Real Base|the principal branch of a positive real number raised to a complex number]]. Then: :$r^{\psi \mathop + \tau} = r^\psi \times r^\tau$
+
+===
+
+Let $f$ be a [[Definition:Real-Valued Function|real-valued function]]. Then: : $f$ is [[Definition:Bounded Real-Valued Function|bounded]] on the [[Definition:Set Union|union]] of a [[Definition:Finite|finite]] number of [[Definition:Set|sets]] within the [[Definition:domain|domain]] of $f$ {{iff}}: :$f$ is [[Definition:Bounded Real-Valued Function|bounded]] on each of the sets.
+
+===
+
+Let $\triangle ABC$ be a [[Definition:Right Spherical Triangle|right spherical triangle]] on the surface of a [[Definition:Sphere (Geometry)|sphere]] whose [[Definition:Center of Sphere|center]] is $O$. Let the [[Definition:Side of Spherical Triangle|sides]] $a, b, c$ of $\triangle ABC$ be measured by the [[Definition:Subtend|angles subtended]] at $O$, where $a, b, c$ are [[Definition:Opposite (in Triangle)|opposite]] $A, B, C$ respectively. Let the [[Definition:Spherical Angle|angle]] $\sphericalangle C$ be a [[Definition:Right Angle|right angle]]. Let the remaining parts of $\triangle ABC$ be arranged according to the '''interior''' of this [[Definition:Circle|circle]], where the [[Definition:Symbol|symbol]] $\Box$ denotes a [[Definition:Right Angle|right angle]]. :[[File:NapiersRules.png|410px]] Let one of the parts of this [[Definition:Circle|circle]] be called a '''middle part'''. Let the two neighboring parts of the '''middle part''' be called '''adjacent parts'''. Then the [[Definition:Sine|sine]] of the '''middle part''' equals the product of the [[Definition:Tangent|tangents]] of the '''adjacent parts'''.
+
+===
+
+First Order ODE/x dy = (y + x^2 + 9 y^2) dx/Proof 1
+
+===
+
+A [[Definition:Non-Trivial Group|nontrivial group]] $G$ has no [[Definition:Proper Subgroup|proper subgroups]] except the [[Definition:Trivial Group|trivial group]] {{iff}} $G$ is [[Definition:Finite Group|finite]] and its [[Definition:Order of Structure|order]] is [[Definition:Prime Number|prime]].
+
+===
+
+The [[Definition:Gamma Function|Gamma function]] is never equal to $0$.
+
+===
+
+The [[Definition:Left Operation|left operation]] is [[Definition:Associative Operation|associative]]: :$\forall x, y, z: \paren {x \leftarrow y} \leftarrow z = x \leftarrow \paren {y \leftarrow z}$
+
+===
+
+Let $\mathbf A$ be an [[Definition:Matrix|$m \times n$ matrix]]. Let $\mathbf B$ be an [[Definition:Matrix|$n \times m$ matrix]]. Let $1 \le j_1, j_2, \ldots, j_m \le n$. Let $\mathbf A_{j_1 j_2 \ldots j_m}$ denote the [[Definition:Matrix|$m \times m$ matrix]] consisting of [[Definition:Column of Matrix|columns]] $j_1, j_2, \ldots, j_m$ of $\mathbf A$. Let $\mathbf B_{j_1 j_2 \ldots j_m}$ denote the [[Definition:Matrix|$m \times m$ matrix]] consisting of [[Definition:Row of Matrix|rows]] $j_1, j_2, \ldots, j_m$ of $\mathbf B$. Then: :$\displaystyle \map \det {\mathbf A \mathbf B} = \sum_{1 \mathop \le j_1 \mathop < j_2 \mathop < \cdots \mathop < j_m \le n} \map \det {\mathbf A_{j_1 j_2 \ldots j_m} } \map \det {\mathbf B_{j_1 j_2 \ldots j_m} }$ where $\det$ denotes the [[Definition:Determinant of Matrix|determinant]].
+
+===
+
+Let $J_n$ be the $n \times n$ [[Definition:Ones Matrix|matrix of all ones]]. Let $A$ be an $n \times n$ matrix. Let $A_{ij}$ denote the [[Definition:Cofactor|cofactor]] of element $\paren {i,j}$ in $\det\paren A$, $1\le i,j \le n$. Then: :$\displaystyle \det \paren {A -J_n} = \det \paren A - \sum_{i \mathop = 1}^n \sum_{j \mathop = 1}^n A_{ij} $
+
+===
+
+Let $n \in \N_{>0}$ be a non-zero [[Definition:Natural Number|natural number]]. Let $\N^*_n$ denote the [[Definition:Initial Segment of One-Based Natural Numbers|Initial segment]] $\set {1, 2, \ldots, n}$ of the non-zero [[Definition:Natural Number|natural numbers]]. Then every [[Definition:Non-Empty Set|non-empty]] [[Definition:Subset|subset]] of $\N^*_n$ has a [[Definition:Greatest Element|greatest element]].
+
+===
+
+Let $J_1, J_2, \ldots, J_n$ be [[Definition:Ideal of Ring|ideals]] of a [[Definition:Ring (Abstract Algebra)|ring]] $\struct {R, +, \circ}$. Then: : $J = J_1 + J_2 + \cdots + J_n$ is an [[Definition:Ideal of Ring|ideal]] of $R$. where $J_1 + J_2 + \cdots + J_n$ is as defined in [[Definition:Subset Product|subset product]].
+
+===
+
+Let $S$ and $T$ be [[Definition:Set|sets]]. Let $S \times T$ be the [[Definition:Cartesian Product|Cartesian product]] of $S$ and $T$. Let $\pr_1: S \times T \to S$ and $\pr_2: S \times T \to T$ be the [[Definition:First Projection|first]] and [[Definition:Second Projection|second projections]] respectively on $S \times T$. Then $\struct {S \times T, \pr_1, \pr_2}$ is a [[Definition:Set Product|set product]].
+
+===
+
+$L$ can be expressed by the equation: :$\map \arg {\dfrac {z - z_1} {z_2 - z_1} } = 0$
+
+===
+
+The [[Definition:Distance (Linear Measure)|distance]] $d$ between two [[Definition:Point|points]] $A = \tuple {x_1, y_1}$ and $B = \tuple {x_2, y_2}$ on a [[Definition:Cartesian Plane|Cartesian plane]] is: :$d = \sqrt {\paren {x_1 - x_2}^2 + \paren {y_1 - y_2}^2}$
+
+===
+
+Let $n \in \Z_{>0}$ be a [[Definition:Strictly Positive Integer|(strictly) positive integer]]. Let $n$ have $m$ [[Definition:Digit|digits]] when expressed in [[Definition:Decimal Notation|decimal notation]]. Then $n$ may require as many as $\ceiling {\dfrac m {\log_{10} 2} }$ [[Definition:Bit|bits]] to represent it.
+
+===
+
+The [[Definition:Locus|locus]] of the [[Definition:Equation of Geometric Figure|equation]] of the [[Definition:Square (Algebra)|square function]]: :$y = x^2$ describes a [[Definition:Parabola|parabola]].
+
+===
+
+Let $E / F$ be an [[Definition:Algebraic Field Extension|algebraic field extension]]. Let $A \subseteq E$ be a [[Definition:Unital Subalgebra|unital subalgebra]] over $F$. Then $A$ is a [[Definition:Field (Abstract Algebra)|field]].
+
+===
+
+Parallelepipeds on Same Base and Same Height whose Extremities are not on Same Lines are Equal in Volume
+
+===
+
+:$\left({p \implies r}\right) \lor \left({q \implies r}\right) \dashv \vdash \left({p \land q}\right) \implies r$
+
+===
+
+Let $A$ be the [[Definition:Set|set]] of all [[Definition:Real Sequence|real sequences]] $\left\langle{x_i}\right\rangle$ such that the [[Definition:Series of Numbers|series]] $\displaystyle \sum_{i \mathop \ge 0} x_i^2$ is [[Definition:Convergent Series of Numbers|convergent]]. Let $\ell^2 = \struct {A, d_2}$ be the [[Definition:Hilbert Sequence Space|Hilbert sequence space on $\R$]]. Then no point of $\ell^2$ has a [[Definition:Compact Topological Subspace|compact]] [[Definition:Neighborhood of Point|neighborhood]].
+
+===
+
+The [[Rule of Addition/Sequent Form/Formulation 2/Form 2|Rule of Addition]]: :$q \implies (q \lor p)$ is a [[Definition:Tautology (Formal Semantics)|tautology]] in [[Definition:Constructed Semantics/Instance 4|Instance 4]] of [[Definition:Constructed Semantics|constructed semantics]].
+
+===
+
+Let $\RR$ be a [[Definition:Congruence Relation|congruence relation]] on a [[Definition:Group|group]] $\struct {G, \circ}$. Then the [[Definition:Quotient Structure|quotient structure]] $\struct {G / \RR, \circ_\RR}$ is a [[Definition:Group|group]].
+
+===
+
+Let $S$ and $T$ be [[Definition:Empty Set|nonempty]] [[Definition:Set|sets]]. Let $\left|{S}\right|$ denote the [[Definition:Cardinal Number|cardinal number]] of $S$. Then: :$S \times T \sim \left|{S \times T}\right| \iff S \sim \left|{S}\right| \land T \sim \left|{T}\right|$ where $S \times T$ denotes the [[Definition:Cartesian Product|cartesian product]] of $S$ and $T$.
+
+===
+
+Let $x \in \Z$ be an [[Definition:Integer|integer]]. Then one of the following holds: {{begin-eqn}} {{eqn | l = x^2 | o = \equiv | r = 0 \pmod 3 | c = }} {{eqn | l = x^2 | o = \equiv | r = 1 \pmod 3 | c = }} {{end-eqn}}
+
+===
+
+Binomial Coefficient with Self minus One/Proof 1
+
+===
+
+The [[Definition:Length (Linear Measure)|length]] of a [[Definition:Diagonal of Quadrilateral|diagonal]] of a [[Definition:Square (Geometry)|square]] of [[Definition:Side of Polygon|side]] [[Definition:Length (Linear Measure)|length]] $1$ is $\sqrt 2$) (the [[Definition:Square Root|square root]] of $2$).
+
+===
+
+Let $A$ be an [[Definition:Ordinal|ordinal]]. Let $B$ be a [[Definition:Transitive Set|transitive set]]. Then: :$B \subsetneq A \iff B \in A$
+
+===
+
+Let $\struct {G, \oplus}$ be an [[Definition:Abelian Group|abelian group]]. Let $\mathbb G$ be the [[Definition:Set|set]] of all [[Definition:Group Endomorphism|group endomorphisms]] of $\struct {G, \oplus}$. Let $\struct {\mathbb G, \oplus, *}$ denote the '''[[Definition:Ring of Endomorphisms|ring of endomorphisms]]''' on $\struct {G, \oplus}$. Then $\struct {\mathbb G, \oplus, *}$ is not necessarily a [[Definition:Commutative Ring with Unity|commutative ring with unity]].
+
+===
+
+Let $\left({\R_{>0}, \circ}\right)$ be an [[Definition:Algebraic Structure|algebraic structure]] where $\R_{>0}$ denotes the [[Definition:Strictly Positive Real Number|strictly positive real numbers]]. Define: :$\forall x, y \in \R_{>0}: x \circ y = x y + y$ Then $\circ$ is [[Definition:Antiassociative Operation|antiassociative]] on $\R_{>0}$: :$\forall x, y, z \in \R_{>0}: \left({x \circ y}\right) \circ z \ne x \circ \left({y \circ z}\right)$
+
+===
+
+Let $X$ be a [[Definition:Set|set]]. Let $L = \left({\mathcal P\left({X}\right), \cup, \cap, \subseteq}\right)$ be an [[Definition:Inclusion Ordered Set|inclusion]] [[Definition:Lattice|lattice]] of [[Definition:Power Set|power set]] of $X$. Let $F = \left({\mathit{Filt}\left({L}\right), \subseteq}\right)$ be an [[Definition:Inclusion Ordered Set|inclusion ordered set]], where $\mathit{Filt}\left({L}\right)$ denotes the [[Definition:Set of Sets|set]] of all [[Definition:Filter|filters]] on $L$. Then $F$ is [[Definition:Bounded Below Set|bounded below]] and $\bot_F = \left\{{X}\right\}$ where $\bot_F$ denotes the [[Definition:Smallest Element|smallest element]] of $F$.
+
+===
+
+Equation of Circle in Complex Plane
+
+===
+
+Let $\struct {X, \norm { \, \cdot \, } }$ be a [[Definition:Normed Vector Space|normed vector space]]. Let $\sequence {x_n}$ be a [[Definition:Convergent Sequence in Normed Vector Space|convergent sequence]] in $R$ to the [[Definition:Limit of Sequence in Normed Vector Space|limit]] $x$. That is, let $\displaystyle \lim_{n \mathop \to \infty} x_n = x$. Then :$\displaystyle \lim_{n \mathop \to \infty} \norm {x_n} = \norm x$
+
+===
+
+Let $U \left({n}\right)$ denote the number of different ways of representing $1$ as the [[Definition:Rational Addition|sum]] of $n$ [[Definition:Unit Fraction|unit fractions]]. Then for various $n$, $U \left({n}\right)$ is given by the following table: :{| border="1" |- ! align="right" style = "padding: 2px 10px" | $n$ ! align="right" style = "padding: 2px 10px" | $U \left({n}\right)$ |- | align="right" style = "padding: 2px 10px" | $1$ | align="right" style = "padding: 2px 10px" | $1$ |- | align="right" style = "padding: 2px 10px" | $2$ | align="right" style = "padding: 2px 10px" | $1$ |- | align="right" style = "padding: 2px 10px" | $3$ | align="right" style = "padding: 2px 10px" | $3$ |- | align="right" style = "padding: 2px 10px" | $4$ | align="right" style = "padding: 2px 10px" | $14$ |- | align="right" style = "padding: 2px 10px" | $5$ | align="right" style = "padding: 2px 10px" | $147$ |- | align="right" style = "padding: 2px 10px" | $6$ | align="right" style = "padding: 2px 10px" | $3462$ |} {{OEIS|A002966}}
+
+===
+

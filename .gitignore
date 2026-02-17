@@ -1,0 +1,7 @@
+# Large datasets
+data/naturalproofs_proofwiki.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
